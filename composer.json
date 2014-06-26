@@ -1,6 +1,6 @@
 {
     "name": "phiber/sample-app",
-    "description": "A sample application for Phiber framework",
+    "description": "A sample application for Phiber framework.",
     "keywords": ["phiber","phiber app","phiber framework"],
     "homepage": "https://github.com/ghousseyn/phiber-sample-app",
     "license": "MIT",
