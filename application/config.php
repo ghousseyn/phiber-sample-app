@@ -14,11 +14,11 @@ class config
   /*
    * DB configuration properties
   */
-  public $PHIBER_DB_DSN = 'mysql:host=127.0.0.1;dbname=phiber';
+  public $PHIBER_DB_DSN = '<db-dsn>';
 
-  public $PHIBER_DB_PASS = "password";
+  public $PHIBER_DB_PASS = '<db-password>';
 
-  public $PHIBER_DB_USER = "root";
+  public $PHIBER_DB_USER = '<db-user>';
   /**
    * Enable/Disable logging
    * @var boolean
@@ -82,10 +82,10 @@ class config
   /**
    * Path to the library relative to this file (set in the construct)
    */
-  protected $library = 'library';
+  protected $library = '<library>';
 
 
-  protected $application = 'application';
+  protected $application = '<application>';
 
 
   /**
