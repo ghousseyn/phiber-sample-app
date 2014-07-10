@@ -79,11 +79,8 @@ class config
   public $STOP_ON_WARNINGS = true;
 
   public $STOP_ON_USER_WARNINGS = true;
-  /**
-   * Path to the library relative to this file (set in the construct)
-   */
-  protected $library = '<library>';
 
+  protected $library = '<library>';
 
   protected $application = '<application>';
 
