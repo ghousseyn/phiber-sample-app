@@ -1,6 +1,6 @@
 <?php
 
-include "../library/phiber.php";
+include "../vendor/phiber/phiber/library/phiber.php";
 
 $phiber = Phiber\phiber::getInstance();
 
