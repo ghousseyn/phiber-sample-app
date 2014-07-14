@@ -11,7 +11,11 @@
 class config
 {
   private static $instance = null;
-  /*
+  /**
+   * Is this a dev instance or a production application
+   */
+  protected $PHIBER_MODE = 'dev';
+  /**
    * DB configuration properties
   */
   public $PHIBER_DB_DSN = '<db-dsn>';
