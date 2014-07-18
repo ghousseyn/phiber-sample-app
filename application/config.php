@@ -11,6 +11,8 @@
 class config
 {
   private static $instance = null;
+
+  public $PHIBER_TIMEZONE = 'Africa/Algiers';
   /**
    * Is this a dev instance or a production application
    */
