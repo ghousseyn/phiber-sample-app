@@ -1,10 +1,9 @@
 <?php
 
-include "../vendor/phiber/phiber/library/phiber.php";
+require "../vendor/phiber/phiber/library/wire.php";
 
-$phiber = Phiber\phiber::getInstance();
+$phiber = new Phiber\wire;
 
-$phiber->run('../application/config.php');
-
+$phiber->boot('../application/config.php');
 ?>
 

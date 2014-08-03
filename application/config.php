@@ -57,10 +57,14 @@ class config
   public $PHIBER_CONTROLLER_DEFAULT_METHOD = 'main';
   /**
    *
-   * @var unknown_type
+   * Default controller
    */
 
   public  $PHIBER_CONTROLLER_DEFAULT = 'index';
+  /**
+   * Layout file
+   */
+  public  $PHIBER_LAYOUT_FILE = 'lauyout.php';
   /**
    * Directory of the logs please set an absolute path. Must be writable by the server
    * @var string A Valid absolute path (directories will not be created for you)
