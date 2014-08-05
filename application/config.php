@@ -69,11 +69,11 @@ class config
    * Directory of the logs please set an absolute path. Must be writable by the server
    * @var string A Valid absolute path (directories will not be created for you)
    */
-  public $logDir = null;
+  protected $logDir = null;
 
   /**
    * Sets log level inclusive to previous levels i.e setting it to 'alert'
-   * will log 'alert' and 'emergency' level events and 'debug' will log everything
+   * will log 'alert' and 'emergency' level events and 'debug' will log everything  and display all errors
    *
    * 'emergency';
    * 'alert';
@@ -84,7 +84,7 @@ class config
    * 'info';
    * 'debug';
    */
-  public $logLevel = 'debug';
+  protected $logLevel = 'debug';
 
   public $STOP_ON_WARNINGS = true;
 
