@@ -2,7 +2,7 @@
 
 require "../vendor/phiber/phiber/library/wire.php";
 
-$phiber = new Phiber\wire;
+$phiber = new Phiber\wire('../application/config.php');
 /**
  *
  * $phiber->addroute('/text',function($phiber){
@@ -13,6 +13,6 @@ $phiber = new Phiber\wire;
  *
  */
 
-$phiber->boot('../application/config.php');
+$phiber->boot();
 ?>
 
