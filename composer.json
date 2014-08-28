@@ -13,6 +13,6 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "phiber/phiber": ">=0.9.9"
+        "phiber/phiber": ">=1.0.0"
     }
 }
