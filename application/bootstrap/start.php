@@ -2,8 +2,9 @@
 namespace bootstrap;
 use Phiber\wire;
 use Phiber\error;
+use Phiber\bootstrap;
 
-class start extends \bootstrap
+class start extends bootstrap
 {
   /**
    * Pre-boot code here
