@@ -1,6 +1,10 @@
 <?php
 
-require "../vendor/phiber/phiber/library/wire.php";
+require '../vendor/phiber/phiber/library/wire.php';
+
+//Uncomment the next line to use composer autoloader
+//require '../vendor/autoload.php';
+
 
 $phiber = new Phiber\wire('../application/config.php');
 /**

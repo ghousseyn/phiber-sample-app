@@ -1,3 +1,3 @@
 <?php
-//var assigned within the sample plugin
+//This will render the partial view of the current action
 $this->render();
