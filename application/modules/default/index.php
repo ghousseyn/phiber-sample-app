@@ -2,17 +2,18 @@
 
 class index extends \Phiber\controller
 {
-  public $testing;
+
   function main()
   {
-
-    $this->view->text = "Text from default controller: " . __file__;
+    //Create a variable on the fly (see views/index/main.php for the partial template)
+    $this->view->text = "" ;
   }
 
   function action()
   {
-
-
+    /*
+     * Another action
+     */
   }
 
 }
