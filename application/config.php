@@ -11,15 +11,20 @@ namespace Phiber;
 class config
 {
   private static $instance = null;
-
+  /**
+   * Application timezone
+   * @var string
+   */
   public $PHIBER_TIMEZONE = 'Africa/Algiers';
   /**
    * Is this a dev instance or a production application
+   * @var string
    */
   protected $PHIBER_MODE = 'dev';
   /**
    * DB configuration properties
-  */
+   * @var string
+   */
   public $PHIBER_DB_DSN = '<db-dsn>';
 
   public $PHIBER_DB_PASS = '<db-password>';
@@ -43,6 +48,7 @@ class config
   /**
    * Session will be destroyed after 1800 seconds (30
    * minutes) of inactivity Alternatively set the value that you like in seconds
+   * @var integer
   */
   public $PHIBER_SESSION_INACTIVE = 1800;
   /**
@@ -53,21 +59,24 @@ class config
   /**
    * The action method that should be called from your controller in case a
    * none-existant action is called (or none specified)
+   * @var integer
    */
   public $PHIBER_CONTROLLER_DEFAULT_METHOD = 'main';
   /**
-   *
    * Default controller
+   * @var string
    */
 
   public  $PHIBER_CONTROLLER_DEFAULT = 'index';
   /**
    * Layout file
+   * @var string
    */
   public  $PHIBER_LAYOUT_FILE = 'layout.php';
   /**
    * Directory of the logs please set an absolute path. Must be writable by the server
    * @var string A Valid absolute path (directories will not be created for you)
+   * @access ReadOnly
    */
   protected $logDir = null;
 
@@ -83,18 +92,30 @@ class config
    * 'notice';
    * 'info';
    * 'debug';
+   * @var string
+   * @access ReadOnly
    */
   protected $logLevel = 'debug';
-
+  /**
+   * Halt execution on warnings
+   * @var boolean
+   */
   public $STOP_ON_WARNINGS = true;
-
+  /**
+   * Halt execution on user warnings
+   * @var boolean
+   */
   public $STOP_ON_USER_WARNINGS = true;
-
+  /**
+   * Absolute path of the library folder
+   * @var string
+   */
   protected $library = '<library>';
-
+  /**
+   * Absolute path of the application folder
+   * @var string
+   */
   protected $application = '<application>';
-
-
   /**
    * Enable/Disable layout globally
    * @var boolean

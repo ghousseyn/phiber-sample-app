@@ -2,7 +2,7 @@
 
 require '../vendor/phiber/phiber/library/wire.php';
 
-//Uncomment the next line to use composer autoloader
+//Uncomment the next line to use composer autoloader (change the path if necessary)
 //require '../vendor/autoload.php';
 
 
@@ -19,6 +19,7 @@ $phiber = new Phiber\wire('../application/config.php');
  * $phiber->baseUri('subfolder');
  *
  */
+
 
 $phiber->boot();
 ?>
